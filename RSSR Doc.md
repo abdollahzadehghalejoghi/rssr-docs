@@ -16,6 +16,6 @@
 <p>Contains environmental variables for different modes</p>
 <h2 id="eslint">eslint</h2>
 <p>Eslint settings which help us code easier and cleaner</p>
-<h2 id="gitignore-package.json-readme.md">gitignore, package.json, <a href="http://readme.md">readme.md</a></h2>
+<h2 id="gitignore-package.json--readme">gitignore, package.json &amp; readme</h2>
 <p>Fundamental requirements</p>
 
