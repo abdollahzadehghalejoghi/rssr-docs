@@ -55,6 +55,13 @@ we can only use <code>webpackDevMiddleware</code> for development.</p>
 </blockquote>
 <p>in case of any change in imported files, refreshes the project in client side (refreshes the browser).</p>
 <blockquote>
-<p><code>app.use(webpackHotServerMiddleware(compiler))</code></p>
+<p><code>const webpackHotServerMiddleware = require('webpack-hot-server-middleware')</code><br>
+<code>app.use(webpackHotServerMiddleware(compiler))</code></p>
 </blockquote>
+<p>in case of any change in imported files, refreshes the project in server side.</p>
+<blockquote>
+<p><code>require('../setup/evnLoader')</code><br>
+<code>const PORT = process.env.PORT || 4000;</code></p>
+</blockquote>
+<p>defining the port on which the server will run. <code>process.env</code> in <code>process.env.PORT</code> contains environmental variables in the project. If there is no port defined in <code>process.env</code> folders then the default port would be 4000.</p>
 
